@@ -253,10 +253,6 @@ main {
     font-weight: 300;
     vertical-align: 25px;
 }
-.plan-card--saving {
-    font-size: 1.2rem;
-    color: #757575;
-}
 .plan-card--ca {
     width: 150px;
     height: 48px;
