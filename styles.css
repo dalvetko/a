@@ -202,6 +202,21 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
+.platzi {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background: linear-gradient(207.8deg, #662fad 17%, #22b3df 100%);
+    border-radius: 5px;
+    color: var(--just-white);
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    text-decoration: none;
+}
 footer {
     display: flex;
     width: 100%;
