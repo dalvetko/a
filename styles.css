@@ -202,65 +202,6 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
-.plans-container--slider {
-    display: flex;
-    height: 320px;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-}
-.plans-container--card {
-    position: relative;
-    scroll-snap-align: center;
-    width: 70%;
-    min-width: 190px;
-    max-width: 300px;
-    height: 250px;
-    margin: 50px 5px 0;
-    padding: 0 15px;
-    background-color: var(--black);
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
-}
-.plan-card--title {
-    padding-top: 30px;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: var(--just-white);
-}
-.plan-card--price {
-    padding: 5px 0;
-    font-size: 5.2rem;
-    font-weight: bold;
-    line-height: 5.3rem;
-    color: var(--just-white);
-}
-.plan-card--price span {
-    font-size: 1.2rem;
-    font-weight: 300;
-    vertical-align: 25px;
-}
-.plan-card--ca {
-    width: 150px;
-    height: 48px;
-    margin-top: 20px;
-    background-color: #454747;
-    border: 2px solid var(--aqua);
-    border-radius: 4px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 1.4rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    color: var(--grey);
-}
-.plan-card--ca span {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url("./assets/icons/arrow-right.svg");
-    vertical-align: text-bottom;
-}
 footer {
     display: flex;
     width: 100%;
