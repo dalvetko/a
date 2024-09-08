@@ -25,7 +25,7 @@ header {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 334px;
+    height: 330px;
     text-align: center;
     background: linear-gradient(207.8deg, #662fad 17%, #22b3df 100%);
 }
@@ -83,14 +83,6 @@ main {
     padding: 20px 10px;
     background-color: var(--dark);
 }
-.product-detail--batata-logo {
-    position: absolute;
-    width: 40px;
-    height: 25px;
-    top: -10px;
-    left: calc(50% - 20px);
-    background-image: url("./assets/img/papita.svg");
-}
 .product-detail--title {
     width: 90%;
     min-width: 288px;
@@ -120,7 +112,7 @@ main {
     height: 150px;
     margin: 15px auto;
     padding: 15px;
-    background-color: var(--black);
+    background: linear-gradient(rgba(102, 47, 173, 0.2) 17%, rgba(34, 179, 223, 0.2) 100%);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
@@ -159,6 +151,8 @@ main {
     color: #808080;
 }
 .bitcoin-img-container {
+    display: flex;
+    align-items: center;
     width: 100%;
     min-width: 320px;
     height: 50vh;
@@ -167,13 +161,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-}
-.bitcoin-img-container h2 {
-    padding-top: 60px;
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    color: var(--just-white);
 }
 .main-plans-container {
     width: 100%;
@@ -202,7 +189,7 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
-.platzi {
+.platzi, .port {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
@@ -217,6 +204,53 @@ main {
     line-height: 2.6rem;
     text-decoration: none;
 }
+
+/*portafolio*/
+
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.plans--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.plans--title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.plans-container--slider {
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.plans-container--card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 100%;
+    height: 250px;
+    margin: 50px 5px 0;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.plans-container--card img {
+    width: 100%;
+    height: 240px;
+}
+
+/*footer*/
+
 footer {
     display: flex;
     width: 100%;
