@@ -189,7 +189,7 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
-.platzi, .port {
+.platzi {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
@@ -266,6 +266,11 @@ footer section {
 .left img {
     width: 50px;
     height: 50px;
+    transition: transform 1s linear;
+}
+.left img:hover {
+    transform: scale(1.2);
+    transition: transform 500ms;
 }
 .right img {
     width: 60px;
