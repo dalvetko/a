@@ -151,6 +151,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    color: white;
 }
 .main-plans-container {
     width: 100%;
