@@ -140,21 +140,6 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
-.bitcoin-img-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-width: 320px;
-    height: 50vh;
-    background-image: url("./assets/img/post.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: white;
-    font-size: 1.4rem;
-}
 .main-plans-container {
     width: 100%;
     min-width: 320px;
