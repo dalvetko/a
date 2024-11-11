@@ -105,6 +105,7 @@ main {
     background: linear-gradient(rgba(102, 47, 173, 0.2) 17%, rgba(34, 179, 223, 0.2) 100%);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    text-align: center;
 }
 .product--card-title {
     margin-bottom: 15px;
