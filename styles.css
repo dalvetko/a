@@ -143,6 +143,7 @@ main {
 .bitcoin-img-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     min-width: 320px;
     height: 50vh;
