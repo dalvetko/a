@@ -23,11 +23,18 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100%;
     min-width: 320px;
-    height: 330px;
+    height: 300px;
     text-align: center;
     background: linear-gradient(207.8deg, #662fad 17%, #22b3df 100%);
+}
+header img {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 100px;
+    height: 100px;
 }
 .header--title-container {
     display: flex;
@@ -99,7 +106,7 @@ main {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    height: 80px;
     margin: 15px auto;
     padding: 15px;
     background: linear-gradient(rgba(102, 47, 173, 0.2) 17%, rgba(34, 179, 223, 0.2) 100%);
@@ -113,12 +120,6 @@ main {
     font-weight: bold;
     line-height: 1.8rem;
     color: var(--just-white);
-}
-.product--card-body {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: #808080;
 }
 .main-plans-container {
     width: 100%;
